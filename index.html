@@ -1,12 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jhorguen Dev</title>
-    <link rel="shortcut icon" href="https://i.ibb.co/7dWH5rNF/developer.png" type="image/x-icon">
-</head>
-<body>
-    
-</body>
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/7dWH5rNF/developer.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Jhorguen Vargas Moreno</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="login.html" class="login-btn">Acceder</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-contenido">
+            <h1>Hola, soy <span class="highlight">Jhorguen</span></h1>
+            <p class="location">
+              <i class="fas fa-map-marker-alt"></i> Bucaramanga, Colombia
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/Jhorguen"
+                class="social-btn"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jhorguen-vargas-moreno-b94838254/"
+                class="social-btn"
+              >
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="sobre-mi">
+        <div class="container">
+          <h2>Sobre Mí</h2>
+          <p class="descripcion">
+            Soy estudiante de Ingeniería de
+            Software, con interés en el desarrollo web y la creación de
+            soluciones prácticas usando tecnología. Me motiva aprender de forma
+            constante, construir proyectos reales y aportar valor desde el
+            primer día. Busco mi primera oportunidad en el mundo del desarrollo
+            para seguir creciendo técnica y profesionalmente.
+          </p>
+        </div>
+      </section>
+
+      <section class="ai-tools">
+        <div class="container">
+          <h2>Herramientas de IA que usé en este proyecto</h2>
+          <div class="herramientas-grid">
+            <div class="tool-card">
+              <h3>ChatGPT</h3>
+              <p>Para estructurar el código y resolver dudas técnicas</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2026 Jhorguen Vargas Moreno. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
 </html>
