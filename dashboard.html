@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Zona Privada</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Mi Dashboard</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li>
+            <a href="#" onclick="logout()" class="logout-btn">Cerrar Sesión</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="dashboard">
+      <div class="container">
+        <h1 class="dashboard-title">Panel Privado</h1>
+        <section class="dashboard-section">
+          <a target="_blank" href="https://jhorguen.github.io/links/links.html"><h2><i class="fas fa-address-card"></i> Contacto Directo</h2></a>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>jhorguen123@gmail.com</p>
+              </div>
+            </div>
+            <a target="_blank" href="https://wa.me/573043622663">
+              <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <div>
+                  <h3>WhatsApp</h3>
+                  <p>+57 3043622663</p>
+                </div>
+              </div>
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/jhorguen-vargas-moreno-b94838254/"
+            >
+              <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p>Jhorguen Vargas</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="dashboard-section">
+          <h2><i class="fas fa-graduation-cap"></i> Formación y Experiencia</h2>
+          <div class="experience">
+            <div class="exp-item">
+              <h3>Educación</h3>
+              <ul>
+                <li>
+                  <strong>Ingenieria de Software</strong>
+                  <p>Fundacion Universitaria Compensar | 2024 - actualidad</p>
+                </li>
+                <li>
+                  <strong>Tecnico Laboral en desarrollo de Software</strong>
+                  <p>CampusLands | 2025 - Enero 2026</p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="exp-item">
+              <h3>Experiencia Laboral</h3>
+              <ul>
+                <li>
+                  <strong>Freelance</strong>
+                  <p>2025</p>
+                  <p class="exp-desc">Proyectos para clientes locales</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="dashboard-section">
+          <h2><i class="fas fa-video"></i> Video Presentación</h2>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="Video presentación"
+              frameborder="0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <h2><i class="fas fa-project-diagram"></i> Proyectos Destacados</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <h3>Portfolio</h3>
+              <p>Creación de portafolio personal</p>
+              <a target="_blank" href="https://jhorguen.github.io/PORTAFOLIO/" class="project-link">Ver más</a>
+            </div>
+            <div class="project-card">
+              <h3>CampusMusic DB</h3>
+              <p>Proyecto de base de datos en MongoDB para la gestión de escuelas de música, enfocado en centralizar la información académica y operativa, reducir inconsistencias y facilitar consultas analíticas y transacciones. Incluye modelado de datos, validaciones con $jsonSchema, uso de agregaciones y manejo de roles.</p>
+              <a target="_blank" href="https://github.com/Alejandro270704/PROYECTO_MONGODB_SanchezAlejandro_VargasJorguen" class="project-link">Ver más</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
